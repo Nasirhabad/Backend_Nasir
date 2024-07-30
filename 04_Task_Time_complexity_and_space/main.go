@@ -8,7 +8,7 @@ func main() {
 	// 2. O(1)
 
 	// O(1)
-	length := 4
+	length := 9
 	width := 9
 	area := length * width // 1 basic operation
 
