@@ -14,6 +14,7 @@ func main() {
 	numbers[3] = 50
 
 	// approach 1 for accessing array -> regular for loop
+	// more costomizable (epecify which index)
 	for i := 0; i < len(numbers); i++ {
 		fmt.Println(numbers[i])
 
