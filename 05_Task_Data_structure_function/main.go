@@ -25,6 +25,21 @@ func main() {
 	// }
 
 	// slice
+	var books []string
 
+	// add item --> append ()
+
+	books = append(books, "backend")
+	books = append(books, "frontend", "full stack", "web dev")
+
+	// // for range
+	// for idx, books := range books {
+	// 	fmt.Println("index: ", idx, "value", books)
+	// }
+	// for loop -> reversed
+
+	for i := len(books) - 1; i >= 0; i-- {
+		fmt.Println(books[i])
+	}
 
 }
